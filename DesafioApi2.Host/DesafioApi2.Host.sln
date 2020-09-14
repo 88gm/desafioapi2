@@ -5,6 +5,10 @@ VisualStudioVersion = 16.0.30114.105
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DesafioApi2.Host", "DesafioApi2.Host\DesafioApi2.Host.csproj", "{2EDECF72-BF62-4A08-8256-F19D1FF7D61F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DesafioApi2.Domain", "DesafioApi2.Domain\DesafioApi2.Domain.csproj", "{09351DDA-8617-45A7-8602-14687DC16336}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DesafioApi2.Infrastructure.Data", "DesafioApi2.Infrastructure.Data\DesafioApi2.Infrastructure.Data.csproj", "{2987058A-C4D2-4E14-9687-5FED93F0A16E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +19,14 @@ Global
 		{2EDECF72-BF62-4A08-8256-F19D1FF7D61F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2EDECF72-BF62-4A08-8256-F19D1FF7D61F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2EDECF72-BF62-4A08-8256-F19D1FF7D61F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{09351DDA-8617-45A7-8602-14687DC16336}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{09351DDA-8617-45A7-8602-14687DC16336}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{09351DDA-8617-45A7-8602-14687DC16336}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{09351DDA-8617-45A7-8602-14687DC16336}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2987058A-C4D2-4E14-9687-5FED93F0A16E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2987058A-C4D2-4E14-9687-5FED93F0A16E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2987058A-C4D2-4E14-9687-5FED93F0A16E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2987058A-C4D2-4E14-9687-5FED93F0A16E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
